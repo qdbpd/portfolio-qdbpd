@@ -1,9 +1,15 @@
-# webpackでコーディング環境を作る
-gulpでコーディング環境を作っていたものを全部webpackでやってみる
+## Node version
+12.14.1
 
-## 起動方法
-`$ yarn start`  
-で`localhost:3000`に立ち上がってブラウザも開かれる。
+## Usage
+`$ yarn install`
 
-`$ yarn build`  
-でdistに成果物が生成される。
+`$ yarn start`
+
+`$ yarn build`
+
+## 仕様
+- `src/javascripts/` 直下のjsファイルは自動でエントリーポイントに
+- `public` ディレクトリ内のリソースはそのまま納品ファイルにコピー
+- `webpack.common.js` 内の`PUBLIC_URL`を変更するとルートディレクトリが変わります
+- `src/pages/`配下のpugファイルはディレクトリ構造を保ったままhtmlファイルとして生成
