@@ -1,0 +1,17 @@
+.main {
+  width: 100%;
+  position: absolute;
+  z-index: 900;
+  left: 0;
+  &__inner {
+    width: 95%;
+    height: calc(100vh - (66px + 30px) - 30px);
+    margin: 0 auto;
+    position: relative;
+    padding-top: calc(66px + 30px);
+    padding-bottom: 30px;
+  }
+  &__content {
+    position: relative;
+  }
+}

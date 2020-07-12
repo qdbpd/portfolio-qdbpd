@@ -36,11 +36,21 @@
 }
 
 .logo__wrapper {
+  position: fixed;
+  left: 50%;
+  width: 40%;
   height: 66px;
+  -webkit-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+  margin: 0 auto;
 }
 
 .logo__img {
-  background: url(PUBLIC_URL/images/shop1/logo.svg);
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .menuText {

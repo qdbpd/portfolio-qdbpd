@@ -1,0 +1,14 @@
+.topText {
+  &__inner {
+    padding-top: 60px;
+    padding-bottom: 120px;
+    text-align: center;
+  }
+  &__text {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+  }
+}

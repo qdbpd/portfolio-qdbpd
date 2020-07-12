@@ -3,7 +3,8 @@
     "mappings": "ACCG,AAAD,uBAAQ,CAAC;EACP,cAAc,EAAE,MAAM;CACvB",
     "sources": [
         "molecules.scss",
-        "../molecules/headerMenuGroup.scss"
+        "../molecules/headerMenuGroup.scss",
+        "../molecules/topText.scss"
     ],
     "names": [],
     "file": "molecules.css"
