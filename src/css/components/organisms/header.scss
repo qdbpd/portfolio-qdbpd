@@ -1,0 +1,26 @@
+.header {
+  &__wrapper {
+    width: 95%;
+    height: 66px;
+    margin: 0 auto;
+    position: relative;
+    border-bottom: 1px solid #212121;
+  }
+  &__left {
+    position: fixed;
+    top: 22px;
+    left: calc(2.5% + 5px);
+  }
+  &__center {
+    position: fixed;
+    height: 66px;
+    width: 60%;
+    left: 50%;
+    -ms-transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+  }
+  &__right {
+    float: right;
+  }
+}

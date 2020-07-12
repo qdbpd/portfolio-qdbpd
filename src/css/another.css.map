@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,QAAQ,CAAC;EACP,MAAM,EAAE,KAAK;CAAG",
+    "sources": [
+        "another.scss",
+        "modules/another.sass"
+    ],
+    "names": [],
+    "file": "another.css"
+}

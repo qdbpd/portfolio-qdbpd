@@ -1,4 +1,4 @@
-extends ../pug_templates/layouts/layout
+extends ../pug/layouts/layout
 
 block variables
   -
@@ -9,6 +9,7 @@ block content
   .test
     .test__title ...
     .test__image
+    a(href= PUBLIC_URL +"/shop1/base.html") SHOP1
 
 block page_js
   script(src= PUBLIC_URL + '/js/main.js')
