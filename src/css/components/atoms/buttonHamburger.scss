@@ -1,4 +1,9 @@
 .buttonHamburger {
+  position: relative;
+  width: 35px;
+  height: 24px;
+  cursor: pointer;
+  z-index:5000;
   &__twoLine {
     position: relative;
     width: 35px;

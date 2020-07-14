@@ -5,9 +5,12 @@ html(lang='ja')
     link(href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet")
     link(href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,500&display=swap" rel="stylesheet")
     link(href= PUBLIC_URL + "/css/shop1.css" rel="stylesheet")
+    script(src="https://code.jquery.com/jquery-3.3.1.js")
+    script(src= PUBLIC_URL + "/js/shop1/main.js")
     title SHOP1
 
   body
+    include includes/menu
     include includes/header
     include includes/main
     .footer
