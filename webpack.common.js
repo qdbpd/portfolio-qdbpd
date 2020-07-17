@@ -41,7 +41,7 @@ const webpack_config = {
             options: {
               name: '[path][name].html',
               outputPath: (url) => {
-                return path.relative('src/pages', url)
+                return path.relative('src/pug', url)
               },
               url: false
             }
