@@ -55,21 +55,21 @@ const webpack_config = {
           }
         ]
       },
-      {
-        test: /\.(jpg|png|gif|svg)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]',
-              outputPath: 'materials/',
-              publicPath: url => {
-                return PUBLIC_URL + '/materials/' + url;
-              }
-            }
-          }
-        ]
-      },
+      // {
+      //   test: /\.(jpg|png|gif|svg)$/,
+      //   use: [
+      //     {
+      //       loader: 'file-loader',
+      //       options: {
+      //         name: '[name].[ext]',
+      //         outputPath: 'materials/',
+      //         publicPath: url => {
+      //           return PUBLIC_URL + '/materials/' + url;
+      //         }
+      //       }
+      //     }
+      //   ]
+      // },
       {
         test: /\.(glsl|vs|fs|vert|frag)$/,
         exclude: /node_modules/,

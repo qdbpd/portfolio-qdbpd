@@ -1,5 +1,4 @@
 import './modules/importPug'
-import '../css/main.scss'
 
 import load from './modules/load'
 

@@ -1,0 +1,29 @@
+.studies {
+  &__itemInner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 112px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+  &__item {
+    width: 280px;
+    height: 280px;
+    background-color: #f7f7f9;
+    margin-right: 112px;
+    border: none;
+    &:last-child {
+      margin-right: 0;
+    }
+    &:hover {
+      cursor:pointer;
+      filter: alpha(opacity=40);        /* ie lt 8 */
+      -ms-filter: "alpha(opacity=40)";  /* ie 8 */
+      -moz-opacity:0.4;                 /* FF lt 1.5, Netscape */
+      -khtml-opacity: 0.4;              /* Safari 1.x */
+      opacity:0.4;
+      zoom:1;
+    }
+  }
+}
